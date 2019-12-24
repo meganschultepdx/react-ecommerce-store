@@ -4,10 +4,10 @@ import erdoben_logo from "../images/erdoben_logo.jpg";
 import styled from "styled-components";
 import { ButtonContainer } from "./Button";
 
-export class Navbar extends Component {
+export default class Navbar extends Component {
 	render() {
 		return (
-			<nav className="navbar navbar-dark bg-dark">
+			<NavWrapper className="navbar navbar-dark bg-dark">
 				<Link to="/">
 					<img src={erdoben_logo} alt="erdoben logo" className="navbar-brand" />
 				</Link>
@@ -26,9 +26,16 @@ export class Navbar extends Component {
 						my cart
 					</ButtonContainer>
 				</Link>
-			</nav>
+			</NavWrapper>
 		);
 	}
 }
 
-export default Navbar;
+// styled components
+const NavWrapper = styled.nav`
+	.nav-link {
+		color: var(--mainWhite) !important;
+		font-size: 1.3rem;
+		text-transform: capitalize;
+	}
+`;
