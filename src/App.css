@@ -25,3 +25,8 @@ body {
 .text-bright {
 	color: var(--lightBlue);
 }
+
+.navbar-brand {
+	height: 8rem;
+	width: auto;
+}
