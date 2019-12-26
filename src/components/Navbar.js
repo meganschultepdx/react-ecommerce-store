@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import erdoben_logo from "../images/erdoben_logo.jpg";
+import erdobenLogo from "../images/erdobenLogo.png";
 import styled from "styled-components";
 import { ButtonContainer } from "./Button";
 
@@ -9,7 +9,7 @@ export default class Navbar extends Component {
 		return (
 			<NavWrapper className="navbar navbar-dark bg-dark">
 				<Link to="/">
-					<img src={erdoben_logo} alt="erdoben logo" className="navbar-brand" />
+					<img src={erdobenLogo} alt="erdoben logo" className="navbar-logo" />
 				</Link>
 				<ul className="navbar-nav align-items-center">
 					<li className="nav-item ml-5">

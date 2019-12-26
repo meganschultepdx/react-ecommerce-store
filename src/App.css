@@ -26,7 +26,8 @@ body {
 	color: var(--lightBlue);
 }
 
-.navbar-brand {
-	height: 8rem;
+.navbar-logo {
+	height: 5rem;
 	width: auto;
+	border-radius: 4px;
 }
