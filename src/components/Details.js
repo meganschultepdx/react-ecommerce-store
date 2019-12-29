@@ -56,6 +56,7 @@ export default class Details extends Component {
 										onClick={() => {
 											value.addToCart(id);
 										}}
+										cart
 									>
 										{inCart ? "inCart" : "add to cart"}
 									</ButtonContainer>
