@@ -11,7 +11,10 @@ class ProductProvider extends Component {
 		detailProduct: detailProduct,
 		cart: [],
 		modalOpen: false,
-		modalProduct: detailProduct
+		modalProduct: detailProduct,
+		cartSubTotal: 0,
+		cartTax: 0,
+		cartTotal: 0
 	};
 	componentDidMount() {
 		this.setProducts();
@@ -70,6 +73,23 @@ class ProductProvider extends Component {
 			return { modalOpen: false };
 		});
 	};
+
+	increment = id => {
+		console.log("this is increment method");
+	};
+
+	decrement = id => {
+		console.log("this is decrement method");
+	};
+
+	removeItem = id => {
+		console.log("item removed");
+	};
+
+	clearCart = () => {
+		console.log("cart cleared");
+	};
+
 	// tester method for data
 	// tester = () => {
 	// 	console.log("State products :", this.state.products[0].inCart);
@@ -95,7 +115,11 @@ class ProductProvider extends Component {
 					handleDetail: this.handleDetail,
 					addToCart: this.addToCart,
 					openModal: this.openModal,
-					closeModal: this.closeModal
+					closeModal: this.closeModal,
+					increment: this.increment,
+					decrement: this.decrement,
+					removeItem: this.removeItem,
+					clearCart: this.clearCart
 				}}
 			>
 				{/* <button onClick={this.tester}>test me</button> */}
