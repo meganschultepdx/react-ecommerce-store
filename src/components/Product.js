@@ -39,11 +39,16 @@ export default class Product extends Component {
 						)}
 					</ProductConsumer>
 					{/*  card footer */}
-					<div className="card-footer- d-flex justify-content-between">
-						<p className="align-self-center mb-0">{title}</p>
-						<h5 className="text-blue font-italic mb-0">
-							<span className="mr-1">$</span> {price}
-						</h5>
+					<div className="card-footer d-flex flex-column justify-content-center">
+						<div className="card-title d-flex justify-content-center mb-0">
+							<h5 className="mb-0">{title}</h5>
+						</div>
+						<div className="d-flex justify-content-center">
+							<h5 className="text-blue font-italic mb-0">
+								<span className="mr-1">$</span>
+								{price}
+							</h5>
+						</div>
 					</div>
 				</div>
 			</ProductWrapper>
@@ -82,7 +87,14 @@ const ProductWrapper = styled.div`
 			background: rgba(247, 247, 247);
 		}
 	}
+	.card-title {
+		text-align: center;
+		text-transform: capitalize;
+		font-family: "Unica One", cursive !important;
+	}
 	.img-container {
+		height: 15rem;
+		margin-top: -0.5rem;
 		position: relative;
 		overflow: hidden;
 	}
@@ -97,7 +109,7 @@ const ProductWrapper = styled.div`
 		bottom: 0;
 		right: 0;
 		padding: 1rem 2rem;
-		background: var(--lightBlue);
+		background: var(--lightPurple);
 		border: none;
 		color: var(--mainwWhite);
 		border-radius: 0.5rem 0 0 0;
@@ -108,7 +120,7 @@ const ProductWrapper = styled.div`
 		transform: translate(0, 0);
 	}
 	.cart-btn:hover {
-		color: var(--mainBlue);
+		color: var(--mainWhite);
 		cursor: pointer;
 	}
 `;

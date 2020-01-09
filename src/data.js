@@ -6,8 +6,7 @@ https://www.iconfinder.com/Makoto_msk */
 export const storeProducts = [
 	{
 		id: 1,
-		title:
-			"Mély Barlang Antique Gold Diamond Shaped Earrings with Antique Gold Beads",
+		title: "mély barlang antique gold diamond earrings",
 		img: "img/earrings-one.jpg",
 		price: 40,
 		info:
@@ -51,7 +50,7 @@ export const storeProducts = [
 	},
 	{
 		id: 5,
-		title: "Zászló antique bronze long chainmail hoop earrings",
+		title: "Zászló antique bronze long hoop earrings",
 		img: "img/earrings-five.jpg",
 		price: 45,
 		info:

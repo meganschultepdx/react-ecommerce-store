@@ -9,7 +9,7 @@ export default class ProductList extends Component {
 			<React.Fragment>
 				<div className="py-5">
 					<div className="container">
-						<Title name="chainmaille" title="jewelry" />
+						<Title welcome="welcome to the" title="erdoben" store="  shop" />
 						{/* product row */}
 						<div className="row">
 							<ProductConsumer>
