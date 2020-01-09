@@ -19,7 +19,7 @@ const CartItem = ({ item, value }) => {
 				{title}
 			</div>
 			<div className="cart-price col-10 mx-auto col-lg-2">
-				<span className="d-lg-none">price: </span>
+				<span className="d-lg-none">$ </span>
 				{price}
 			</div>
 			<div className="col-10 mx-auto col-lg-2 my-2 my-lg-0">

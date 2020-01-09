@@ -6,7 +6,7 @@ https://www.iconfinder.com/Makoto_msk */
 export const storeProducts = [
 	{
 		id: 1,
-		title: "mély barlang antique gold diamond earrings",
+		title: "mély barlang antique gold diamond pattern earrings",
 		img: "img/earrings-one.jpg",
 		price: 40,
 		info:
