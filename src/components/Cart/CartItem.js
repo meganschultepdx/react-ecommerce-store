@@ -5,7 +5,7 @@ const CartItem = ({ item, value }) => {
 	const { id, title, img, price, total, count } = item;
 	const { increment, decrement, removeItem } = value;
 	return (
-		<div className="row my-1 mb-4 text-capitalize text-center">
+		<div className="cart-row row my-1 mb-4 text-capitalize text-center">
 			<div className="col-10 mx-auto col-lg-2">
 				<img
 					src={img}
@@ -14,11 +14,11 @@ const CartItem = ({ item, value }) => {
 					alt="product"
 				/>
 			</div>
-			<div className="col-10 mx-auto col-lg-2">
+			<div className=" cart-productcol-10 mx-auto col-lg-2">
 				<span className="d-lg-none">product: </span>
 				{title}
 			</div>
-			<div className="col-10 mx-auto col-lg-2">
+			<div className="cart-price col-10 mx-auto col-lg-2">
 				<span className="d-lg-none">price: </span>
 				{price}
 			</div>
