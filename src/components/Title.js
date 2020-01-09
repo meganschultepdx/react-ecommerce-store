@@ -4,7 +4,7 @@ const Title = ({ welcome, title, store }) => {
 	return (
 		<div className="row">
 			<div className="col-12 mx-auto my-2 text-center">
-				<h1 className="text-uppercase">
+				<h1 className="page-title text-uppercase">
 					{welcome} <strong className="text-blue">{title}</strong>
 					{store}
 				</h1>

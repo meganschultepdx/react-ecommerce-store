@@ -28,7 +28,7 @@ export default class Details extends Component {
 									<h2>model: {title}</h2>
 									<h4 className="text-blue">
 										<strong>
-											price: <span>$</span>
+											price: <span>$ </span>
 											{price}
 										</strong>
 									</h4>
@@ -41,6 +41,7 @@ export default class Details extends Component {
 										<ButtonContainer>back to store</ButtonContainer>
 									</Link>
 									<ButtonContainer
+										cart
 										disabled={inCart ? true : false}
 										onClick={() => {
 											value.addToCart(id);

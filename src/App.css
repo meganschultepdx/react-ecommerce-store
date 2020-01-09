@@ -15,9 +15,14 @@ font-family: 'BenchNine', sans-serif;
 font-family: 'Unica One', cursive; */
 
 body {
-	font-family: "Unica One", cursive !important;
+	font-family: "BenchNine", sans-serif !important;
 	background: var(--mainWhite) !important;
 	color: var(--mainDark) !important;
+	text-transform: capitalize;
+}
+
+.page-title {
+	font-family: "Unica One", cursive;
 }
 
 .text-title {

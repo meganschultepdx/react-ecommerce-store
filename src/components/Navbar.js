@@ -48,6 +48,7 @@ const NavWrapper = styled.nav`
 		color: var(--mainWhite) !important;
 		font-size: 1.3rem;
 		text-transform: uppercase;
+		font-family: "Unica One", cursive;
 	}
 	.nav-link:hover {
 		font-size: 1.6rem;
