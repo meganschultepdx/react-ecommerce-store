@@ -1,9 +1,11 @@
 :root {
-	--mainBlue: #16355f;
+	--mainBlue: #051c3b;
 	--lightBlue: #f3f3f3f3;
 	--mainWhite: #f3f3f3f3;
 	--mainDark: #2d2b35;
-	--mainYellow: #a0721e;
+	--mainYellow: #f5ac26;
+	--lightPurple: #6a6671;
+	--darkPurple: #2d2b35;
 }
 
 /* font-family: 'Open Sans Condensed', sans-serif;
@@ -19,7 +21,6 @@ body {
 }
 
 .text-title {
-	font-family: "Oswald", sans-serif;
 	letter-spacing: 0.3rem;
 	text-transform: uppercase;
 }
@@ -33,7 +34,7 @@ body {
 }
 
 .navbar {
-	background-color: #2d2b35;
+	background-color: var(--darkPurple);
 	padding-bottom: 0 !important;
 }
 
