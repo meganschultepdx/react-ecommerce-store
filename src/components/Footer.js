@@ -17,6 +17,7 @@ const Footer = () => {
 const FooterWrapper = styled.footer`
 	.footer {
 		height: 3rem;
+		bottom: 0;
 		width: 100%;
 		background-color: var(--lightPurple);
 	}
