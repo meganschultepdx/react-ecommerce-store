@@ -18,7 +18,10 @@ const FooterWrapper = styled.footer`
 	.footer {
 		height: 3rem;
 		width: 100%;
-		background-color: var(--lightPurple);
+    background-color: var(--lightPurple);
+    position: fixed;
+    left: 0;
+    bottom: 0;
 	}
 
 	a {

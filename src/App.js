@@ -11,6 +11,7 @@ import Modal from "./components/Modal";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+// import ScrollButton from "./components/ScrollButton";
 
 class App extends Component {
 	render() {
@@ -26,6 +27,7 @@ class App extends Component {
 					<Route component={Default} />
 				</Switch>
 				<Modal />
+				{/* <ScrollButton /> */}
 				<Footer />
 			</React.Fragment>
 		);
